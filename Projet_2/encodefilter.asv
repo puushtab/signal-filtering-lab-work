@@ -1,0 +1,4 @@
+[y, Fs] = audioread('sons_projet_2/encode.wav');
+N = length(y);
+x = fft(y);
+sound(y, Fs);
